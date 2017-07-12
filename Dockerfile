@@ -4,10 +4,10 @@ FROM alpine:latest
 MAINTAINER Pim Widdershoven <pim@widdershoven.nl>
 
 # Define rancher-compose version
-ENV RANCHER_COMPOSE_VERSION=v0.12.3
+ENV RANCHER_COMPOSE_VERSION=v0.12.5
 
 # Define rancher version
-ENV RANCHER_CLI_VERSION=v0.5.0
+ENV RANCHER_CLI_VERSION=v0.6.2
 
 # Install dependencies, rancher and rancher-compose
 RUN apk add --quiet --no-cache ca-certificates curl unzip && \
